@@ -1,0 +1,170 @@
+﻿@charset "utf-8";
+
+/*
+   Author: Nathan Robertson
+   Date:   10/1/2016
+   Filename: sa_layout.css
+*/
+
+/* Body layout styles */
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 100%;
+	max-width: 1366px;
+	min-width: 1000px;
+
+	background-color: rgb(256,256,256);
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	line-height: 1.4em;
+}
+
+/* Heading layout styles */
+
+header{
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 10px;
+	background-color: rgb(31,135,243);
+	border-top: 10px solid rgb(0,191,255);
+	border-bottom: 10px solid rgb(0,191,255);
+}
+
+h1 img{
+	height: 20%;
+    width: 20%;
+	float: left;
+	padding-right: 150px;
+}
+
+header h2{
+	display: block;
+	float: right;
+	margin: 30px;
+	
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+header h3{
+	display: block;
+	float: right;
+	margin: 30px;
+	
+	line-height: 1em;
+}
+
+header ul {
+	list-style-type: none;
+	background-color: rgb(90,158,68);
+    border: none;
+    color: white;
+	border-radius: 10px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	float: left;
+    font-size: 16px;
+	box-shadow: 7px 7px 5px rgb(0,76,153);
+}
+
+header ul a {
+	color: black;
+	text-decoration: none;
+}
+
+header ul a:hover {
+	color: rgba(0,102,0, 0.8);
+}
+
+
+/* Navigation Styles */
+
+nav ul {
+	list-style-type: none;
+    margin: 0;
+    padding-left: 340px;
+    overflow: hidden;
+    background-color: rgb(90,158,68);
+	border-radius: 10px;
+	box-shadow: 7px 7px 5px rgb(96,96,96);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(0,102,0);
+}
+
+
+/* Article layout styles */
+
+article {
+	width: 60%;
+	float: right;
+}
+
+/* Aside Styles */
+
+aside {
+	width: 35%;
+	background-color: rgb(31,135,243);
+	text-align: center;
+	margin-top: 1em;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	border: 10px solid rgb(0,191,255);
+	border-radius: 35px;
+}
+
+aside p {
+	text-align: left;
+}
+
+.imgframe { 
+	width:85%;
+	background: white;
+	padding: 12px;
+	border:1px solid rgb(153, 153, 153);
+	box-shadow: 10px 10px 5px rgb(0,76,153);
+}
+
+/* Footer Styles */
+
+footer address {
+	clear: both;
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: rgb(90,158,68);
+	border-top: 5px solid rgb(0,102,0);
+	border-bottom: 5px solid rgb(0,102,0);
+	color: white;
+	color: rgba(0,0,0,0.8);
+	font: normal small-caps 0.9em 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	text-align: center;
+}
+
+footer address a {
+	color: black;
+	text-decoration: none;
+}
+
+footer address a:hover {
+	color: rgba(0,102,0, 0.8);
+}
